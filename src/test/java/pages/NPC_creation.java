@@ -44,10 +44,10 @@ public class NPC_creation extends BaseTest {
         System.out.println("Parcel table is displayed.");
 
         // Step 5: Click Action (3-Dot) Button
-        page.locator("//tbody/tr[1]/td[14]/i[1]")
+        page.locator("//tbody/tr[4]/td[15]/i[1]")
                 .waitFor(new Locator.WaitForOptions().setTimeout(30000));
 
-        page.locator("//tbody/tr[1]/td[14]/i[1]").click();
+        page.locator("//tbody/tr[4]/td[15]/i[1]").click();
 
         System.out.println("Action button clicked successfully.");
 
