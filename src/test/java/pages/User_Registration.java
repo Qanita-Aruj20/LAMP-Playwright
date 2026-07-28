@@ -22,7 +22,7 @@ public class User_Registration extends BaseTest {
         login_bypass login = new login_bypass();
         login.loginMethod(page);
 
-        System.out.println("✅ Login completed successfully");
+        System.out.println("Login completed successfully");
 
         page.waitForTimeout(7000);
         
@@ -40,7 +40,7 @@ public class User_Registration extends BaseTest {
 
         applicantRegistration.click();
 
-        System.out.println("✅ Applicant Registration clicked");
+        System.out.println("Applicant Registration clicked");
 
         // Step 4: Fill CNIC
         page.locator("//input[@placeholder='Enter CNIC Number']")
@@ -73,6 +73,6 @@ public class User_Registration extends BaseTest {
         // Step 8: Click ESC Button
         page.keyboard().press("Escape");
 
-        System.out.println("✅ Registration flow completed");
+        System.out.println("Registration flow completed");
     }
 }

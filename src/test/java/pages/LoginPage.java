@@ -49,9 +49,9 @@ public class LoginPage extends BaseTest {
         String currentURL = page.url();
 
         if (currentURL.contains("/token/queue")) {
-            System.out.println("✅ Login Successful");
+            System.out.println("Login Successful");
         } else {
-            System.out.println("❌ Login Failed");
+            System.out.println("Login Failed");
             throw new AssertionError(
                     "Login failed for CNIC: " + cnic + " | Password: " + password
             );

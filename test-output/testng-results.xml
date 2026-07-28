@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-21T16:05:19 PKT" name="Default suite" finished-at="2026-07-21T16:06:44 PKT" duration-ms="84865">
+  <suite started-at="2026-07-28T15:44:08 PKT" name="Default suite" finished-at="2026-07-28T15:46:34 PKT" duration-ms="146266">
     <groups>
     </groups>
-    <test started-at="2026-07-21T16:05:19 PKT" name="Default test" finished-at="2026-07-21T16:06:44 PKT" duration-ms="84865">
-      <class name="pages.NPC_creation2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:pages.NPC_creation2@1b7cc17c]" started-at="2026-07-21T16:05:19 PKT" name="setup" finished-at="2026-07-21T16:05:29 PKT" duration-ms="10043" status="PASS">
+    <test started-at="2026-07-28T15:44:08 PKT" name="Default test" finished-at="2026-07-28T15:46:34 PKT" duration-ms="146266">
+      <class name="pages.Semi_tpc">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Semi_tpc@1b7cc17c]" started-at="2026-07-28T15:44:08 PKT" name="setup" finished-at="2026-07-28T15:44:18 PKT" duration-ms="10275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="NPCCreation()[pri:0, instance:pages.NPC_creation2@1b7cc17c]" started-at="2026-07-21T16:05:29 PKT" name="NPCCreation" finished-at="2026-07-21T16:06:43 PKT" duration-ms="73749" status="PASS">
+        <test-method signature="SPCCreation()[pri:0, instance:pages.Semi_tpc@1b7cc17c]" started-at="2026-07-28T15:44:18 PKT" name="SPCCreation" finished-at="2026-07-28T15:46:33 PKT" duration-ms="134907" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- NPCCreation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:pages.NPC_creation2@1b7cc17c]" started-at="2026-07-21T16:06:43 PKT" name="tearDown" finished-at="2026-07-21T16:06:44 PKT" duration-ms="1033" status="PASS">
+        </test-method> <!-- SPCCreation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pages.Semi_tpc@1b7cc17c]" started-at="2026-07-28T15:46:33 PKT" name="tearDown" finished-at="2026-07-28T15:46:34 PKT" duration-ms="1032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- pages.NPC_creation2 -->
+      </class> <!-- pages.Semi_tpc -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
